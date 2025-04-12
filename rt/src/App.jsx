@@ -5,6 +5,7 @@ import FeatureSection from "../components/FeatureSection.jsx";
 import Workflow from "../components/Workflow.jsx";
 import Pricing from "../components/Pricing.jsx";
 import Testimonials from "../components/Testimonials.jsx";
+import Footer from "../components/Footer.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
         <Workflow />
         <Pricing />
         <Testimonials />
+        <Footer />
       </div>
     </>
   );
