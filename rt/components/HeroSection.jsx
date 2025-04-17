@@ -29,7 +29,7 @@ const HeroSection = () => {
       </div>
       <div className="flex mt-10 justify-center">
         <video
-          autoplay
+          autoPlay
           muted
           loop
           className="rounded-lg w-1/2 border border-orange-700"
@@ -37,7 +37,7 @@ const HeroSection = () => {
           <source src={video1} type="video/mp4" />
         </video>
         <video
-          autoplay
+          autoPlay
           muted
           loop
           className="rounded-lg w-1/2 border border-orange-700"
